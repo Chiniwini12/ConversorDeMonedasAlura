@@ -36,7 +36,7 @@ public class Principal {
             var menu = RespuestaUsuario.ConsultaMenu();
 
             //Aquí se puede reducir el código utilizando metodos, pero prefiero dejarlo así porque me será más facil
-            //repasar cosas básicas cuando lo revise en un futuro, y tambien porque así es como me salio hacerlo en un principio.
+            //repasar cosas básicas cuando lo revise en un futuro, y también porque así es como me salió hacerlo en un principio.
             switch (menu) {
                 case "1":
                     System.out.println("¿Cuantos dólares [USD] quieres convertir a pesos argentinos [ARS]?\n");
@@ -50,7 +50,7 @@ public class Principal {
                 case "2":
                     System.out.println("¿Cuantos pesos argentinos [ARS] quieres convertir a dólares [USD]?\n");
                     double valor1 = RespuestaUsuario.ConsultaValor();
-                    String respuesta1 = "$"+valor1+" [ARS] es igual a ->> $"+String.format("%.4f",valor1/monedas.ars())+" [USD]\n";
+                    String respuesta1 = "$"+valor1+" [ARS] es igual a ->> $"+String.format("%.4f",valor1/monedas.ars())+" [USD]";
                     System.out.println(respuesta1);
                     LocalTime tiempo1 = LocalTime.now();
                     String hora1 = tiempo1.toString();
@@ -59,16 +59,16 @@ public class Principal {
                 case "3":
                     System.out.println("¿Cuantos dólares [USD] quieres convertir a reales brasileños [BRL]?\n");
                     double valor2 = RespuestaUsuario.ConsultaValor();
-                    String respuesta2 = "$"+valor2+" [USD] es igual a ->> $"+String.format("%.2f",valor2*monedas.brl())+" [BRL]\n";
+                    String respuesta2 = "$"+valor2+" [USD] es igual a ->> $"+String.format("%.2f",valor2*monedas.brl())+" [BRL]";
                     System.out.println(respuesta2);
                     LocalTime tiempo2 = LocalTime.now();
                     String hora2 = tiempo2.toString();
                     historial.write(respuesta2+"# consultado a las: ["+hora2.substring(0,5)+"] horas\n");
                     break;
                 case "4":
-                    System.out.println("¿Cuantos reales brasileños [BRL] quieres convertir a dólares [USD]?\n");
+                    System.out.println("¿Cuantos reales brasileños [BRL] quieres convertir a dólares [USD]?");
                     double valor3 = RespuestaUsuario.ConsultaValor();
-                    String respuesta3 = "$"+valor3+" [BRL] es igual a ->> $"+String.format("%.2f",valor3/monedas.brl())+" [USD]\n";
+                    String respuesta3 = "$"+valor3+" [BRL] es igual a ->> $"+String.format("%.2f",valor3/monedas.brl())+" [USD]";
                     System.out.println(respuesta3);
                     LocalTime tiempo3 = LocalTime.now();
                     String hora3 = tiempo3.toString();
@@ -77,7 +77,7 @@ public class Principal {
                 case "5":
                     System.out.println("¿Cuantos dólares [USD] quieres convertir a pesos colombianos [COP]?\n");
                     double valor4 = RespuestaUsuario.ConsultaValor();
-                    String respuesta4 = "$"+valor4+" [USD] es igual a ->> $"+String.format("%.4f",valor4*monedas.cop())+" [COP]\n";
+                    String respuesta4 = "$"+valor4+" [USD] es igual a ->> $"+String.format("%.4f",valor4*monedas.cop())+" [COP]";
                     System.out.println(respuesta4);
                     LocalTime tiempo4 = LocalTime.now();
                     String hora4 = tiempo4.toString();
@@ -86,7 +86,7 @@ public class Principal {
                 case "6":
                     System.out.println("¿Cuantos pesos colombianos [COP] quieres convertir a dólares [USD]?");
                     double valor5 = RespuestaUsuario.ConsultaValor();
-                    String respuesta5 = "$"+valor5+" [COP] es igual a ->> $"+String.format("%.4f",valor5/monedas.cop())+" [USD]\n";
+                    String respuesta5 = "$"+valor5+" [COP] es igual a ->> $"+String.format("%.4f",valor5/monedas.cop())+" [USD]";
                     System.out.println(respuesta5);
                     LocalTime tiempo5 = LocalTime.now();
                     String hora5 = tiempo5.toString();
