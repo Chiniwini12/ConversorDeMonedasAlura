@@ -8,9 +8,17 @@ _Esta aplicación utiliza la API ExchangeRate: https://www.exchangerate-api.com 
 
 _Se creara un archivo .txt en el cual se guardará un historial de las conversiónes que realices y la hora en la que las hiciste. (FileWrite)
 
-_Las respuestas dadas por el usuario serán revisadas por un método para evitar que responda con letras o números que no correspondan al menú. (Parse con try, catch)
+![image](https://github.com/user-attachments/assets/1ca59651-774e-421b-9018-d3304bdbb02d)
+
+_Las respuestas dadas por el usuario serán revisadas por un método para evitar que responda con letras o números que no correspondan al menú o a un número. (Switch y try, catch)
+
+![image](https://github.com/user-attachments/assets/d312e7ef-0341-4391-90ac-f0d0b17e7959)
+
+![image](https://github.com/user-attachments/assets/8fba268d-66de-417b-b9cd-33821185a49a)
 
 _La mayoria del código tiene anotaciónes "//" que explican algunas cosas por encima y de forma muy básica.
+
+![image](https://github.com/user-attachments/assets/82ecc495-57b8-4002-b335-6bd8e551a1da)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
