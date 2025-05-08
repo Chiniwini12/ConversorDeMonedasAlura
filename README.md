@@ -10,7 +10,7 @@ _Se creara un archivo .txt en el cual se guardará un historial de las conversi�
 
 ![image](https://github.com/user-attachments/assets/1ca59651-774e-421b-9018-d3304bdbb02d)
 
-_Las respuestas dadas por el usuario serán revisadas por un método para evitar que responda con letras o números que no correspondan al menú o a un número. (Switch y try, catch)
+_Las respuestas dadas por el usuario serán revisadas por un método para evitar que responda con letras. (Switch y try, catch)
 
 ![image](https://github.com/user-attachments/assets/d312e7ef-0341-4391-90ac-f0d0b17e7959)
 
